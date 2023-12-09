@@ -2,7 +2,7 @@ import cv2
 from deepface import DeepFace
 
 video = cv2.VideoCapture(0)  # Selects the default camera
-fdetect = cv2.CascadeClassifier('c:/Users/HP/Desktop/programs/c/haarcascade_frontalface_default.xml')
+fdetect = cv2.CascadeClassifier('directory/haarcascade_frontalface_default.xml')
 
 while True:
     ret, frame = video.read()
